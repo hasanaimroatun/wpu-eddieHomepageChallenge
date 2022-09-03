@@ -1,0 +1,494 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: 'heebo';
+    src: url(./font/heebo-regular-webfont.woff2), format('woff2');
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url(./font/poppins-regular-webfont.woff2), format('woff2');
+}
+
+@font-face {
+    font-family: 'montserrat';
+    src: url(./font/montserrat-regular-webfont.woff2), format('woff2');
+}
+
+/* css for header */
+header {
+    width: 100%;
+    height: 95px;
+    padding: 42px 53px;
+    padding-right: 0px;
+    box-sizing: border-box;
+    display: flex;
+    gap: 45%;
+}
+
+.headerTitle {
+    font-family: 'heebo', sans-serif;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 52.88px;
+    color: #333;
+}
+
+.headerBtn button {
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #333;
+    margin-left: 20px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+/* css for main */
+.mainsubTitle {
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #2d9cdb;
+    margin-left: 277px;
+    margin-top: 96px;
+}
+
+.mainTitle {
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 72px;
+    color: #333;
+    margin-left: 277px;
+    margin-top: 16px;
+    width: 500px;
+}
+
+main img {
+    margin: 42px 10px;
+    border-radius: 18px;
+    width: 1332px;
+}
+
+/* css for nav1 */
+.nav1 {
+    margin-left: 277px;
+    width: 366px;
+    font-family: 'poppins', sans-serif;
+}
+
+.nav1Title {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 72px;
+    color: #333;
+}
+
+.nav1Detail {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 42px;
+    color: #4f4f4f;
+}
+
+.label {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 42px;
+    color: #828282;
+}
+
+.nav1 input, .nav1 button {
+    height: 57px;
+    margin-top: 9px;
+}
+
+.nav1 input {
+    width: 240px;
+    padding-left: 21px;
+    border: 0px;
+    outline: none;
+    box-shadow: none;
+}
+
+.nav1 input::placeholder, .nav1 input {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #bdbdbd;
+    background-color: white;
+}
+
+.nav1 button {
+    width: 94px;
+    background-color: #2d9cdb;
+    border-radius: 12px;
+    border: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #f2f2f2;
+    cursor: pointer;
+}
+
+/* css for nav2 */
+.nav2 {
+    margin-top: 200px;
+    margin-left: 165px;
+    font-family: 'poppins', sans-serif;
+}
+
+.nav2Title {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+    color: #333;
+    width: 346px;
+}
+
+.nav2Info {
+    display: flex;
+    gap: 74px;
+}
+
+.nav2InfoContainer {
+    width: 422px;
+    padding: 46px 34px;
+    box-sizing: border-box;
+}
+
+.nav2 .material-symbols-outlined {
+    width: 67px;
+    height: 67px;
+    text-align: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+    color: #f2f2f2;
+    border-radius: 16px;
+}
+
+.blue {
+    background-color: #2d9cdb;
+}
+
+.green {
+    background-color: #27AE60;
+}
+
+.red {
+    background-color: #EB5757;
+}
+
+.nav2InfoTitle {
+    margin-top: 35px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #333;
+}
+
+.nav2InfoDetail {
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4f4f4f;
+}
+
+.nav2 button {
+    width: 116px;
+    height: 42px;
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 12px;
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #828282;
+    cursor: pointer;
+}
+
+.nav2 button:hover {
+    background-color: #2d9cdb;
+    color: #fff;
+}
+
+
+/* css for nav3 */
+.nav3 {
+    margin-top: 249px;
+    margin-left: 165px;
+    font-family: 'poppins', sans-serif;
+}
+
+.nav3Title {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+    color: #333;
+    width: 400px;
+}
+
+.nav3DetailContainer {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+}
+
+.nav3DetailContainer img {
+    width: 545px;
+    height: 545px;
+    border-radius: 12px;
+}
+
+.nav3D1, .nav3D3 {
+    padding-top: 188px;
+}
+
+.imgSubTitle {
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    color: #828282;
+}
+
+.imgTitle, .nav3Btn {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #333;
+}
+
+.nav3Btn {
+    color: #2d9cdb;
+    float: right;
+    margin-right: 110px;
+    margin-top: -35px;
+}
+
+.nav3Btn .material-symbols-outlined {
+    color: #2d9cdb;
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+/* css for nav4 */
+.nav4 {
+    margin-top: 241px;
+    margin-left: 170px;
+    display: flex;
+    gap: 217px;
+    font-family: 'poppins', sans-serif;
+}
+
+.nav4Info {
+    margin-top: 115px;
+    width: 280px;
+}
+
+.nav4Pic {
+    display: grid;
+    grid-template-areas: 
+    'pic1 pic2'
+    'pic1 pic3';
+    gap: 24px;
+}
+
+.nav4SubTitle {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #EB5757;
+}
+
+.nav4Title {
+    margin-top: 7px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+    color: #333;
+}
+
+.nav4Detail {
+    margin-top: 14px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4f4f4f;
+}
+
+.nav4 img {
+    border-radius: 24px;
+}
+
+.pic1 {
+    grid-area: pic1;
+    width: 291px;
+    margin-top: 110px;
+}
+
+.pic2 {
+    grid-area: pic2;
+    width: 260px;
+}
+
+.pic3 {
+    grid-area: pic3;
+    width: 291px;
+}
+
+/* css for nav5 */
+.nav5 {
+    margin-top: 196px;
+    margin-left: 165px;
+    font-family: 'poppins', sans-serif;
+}
+
+.nav5Quote {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+    color: #333;
+    width: 800px;
+}
+
+.nav5Card {
+    margin-top: 36px;
+    display: flex;
+    gap: 20px;
+}
+
+.nav5Card img {
+    width: 100px;
+    border-radius: 10px;
+}
+
+.nav5Name {
+    margin-top: 13px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #333;
+}
+
+.nav5Position {
+    margin-top: 12px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #828282;
+}
+
+/* css for footer */
+footer {
+    margin-top: 183px;
+    width: 100%;
+    background-color: #100e1d;
+    color: #f2f2f2;
+    padding: 46px 168px;
+    box-sizing: border-box;
+}
+
+.footerDetails {
+    display: flex;
+    gap: 245px;
+}
+
+.footerDetail1 {
+    font-family: 'poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    cursor: pointer;
+}
+
+.footerDetails2Title{
+    font-family: 'heebo', sans-serif;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 52.88px;
+    width: 150px;
+}
+
+.footerDetails2 img {
+    margin-right: 11px;
+    border-radius: 5px;
+}
+
+.footerDetails3 {
+    font-family: 'poppins', sans-serif;
+}
+
+.footerDetails3 label {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.footerBtnContainer {
+    margin-top: 9px;
+    width: 350px;
+    height: 57px;
+    background-color: #f2f2f2;
+    border-radius: 12px;
+    line-height: 57px;
+    padding-left: 21px;
+    box-sizing: border-box;
+}
+
+.footerBtnContainer input {
+    width: 227px;
+    background-color: #f2f2f2;
+    border: 0px;
+    outline: none;
+    box-shadow: none;
+}
+
+.footerBtnContainer input, .footerBtnContainer input::placeholder {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #bdbdbd;
+}
+
+.footerBtn {
+    width: 94px;
+    height: 49px;
+    background-color: #2d9cdb;
+    border-radius: 12px;
+    border: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #f2f2f2;
+    cursor: pointer;
+}
+
+.createdBy {
+    font-family: 'montserrat', sans-serif;
+    margin-top: 118px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17.07px;
+}
+
+a {
+    color: inherit;
+    font-weight: 700;
+    cursor: pointer;
+}

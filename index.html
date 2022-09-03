@@ -9,30 +9,42 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
+        <div class="burgerButton">
+            <div class="btn1"></div>
+            <div class="btn2"></div>
+            <div class="btn3"></div>
+        </div>
+        <div class="navBar">
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#ourWork">Our Works</a>
+            <a href="#clients">Clients</a>
+            <a href="#contact">Contact</a>
+        </div>
         <header>
             <div class="headerTitle">Edie</div>
             <div class="headerBtn">
-                <button>Home</button>
-                <button>Services</button>
-                <button>Our Works</button>
-                <button>Clients</button>
-                <button>Contact</button>
+                <button><a href="#home">Home</a></button>
+                <button><a href="#services">Services</a></button>
+                <button><a href="#ourWork">Our Works</a></button>
+                <button><a href="#clients">Clients</a></button>
+                <button><a href="#contact">Contact</a></button>
             </div>
         </header>
-        <main>
+        <main id="home">
             <div class="mainsubTitle">Unhappy with your website?</div>
             <div class="mainTitle">We create beautiful and fast web services</div>
             <img src="./assets/heroImage.jpg" alt="hero">
         </main>
         <nav>
-            <div class="nav1">
+            <div class="nav1" id="contact">
                 <div class="nav1Title">Story, emotion and purpose</div>
                 <div class="nav1Detail">We help transform your ideas into real world applications that will outperform your toughest competition and help you achieve your strategic goals in short period of time.</div>
                 <div class="label">Want us to contact you?</div>
                 <input type="email"  placeholder="Email">
                 <button class="nav1Btn">Join</button>
             </div>
-            <div class="nav2">
+            <div class="nav2" id="services">
                 <div class="nav2Title">We offer high demand services</div>
                 <div class="nav2Info">
                     <div class="nav2InfoContainer">
@@ -61,7 +73,7 @@
                     </div>
                 </div>
             </div>
-            <div class="nav3">
+            <div class="nav3" id="ourWork">
                 <div class="nav3Title">Good design means good business</div>
                 <div class="nav3DetailContainer">
                     <div class="nav3D1">
@@ -104,7 +116,7 @@
                     <img src="./assets/person2.png" alt="person2" class="pic3">
                 </div>
             </div>
-            <div class="nav5">
+            <div class="nav5" id="clients">
                 <div class="nav5Quote">“Fast and outstanding resutls. Edie understands their customer’s needs. They have a young and talented team.”</div>
                 <div class="nav5Card">
                     <img src="./assets/person4.png" alt="person4">
@@ -118,11 +130,11 @@
         <footer>
             <div class="footerDetails">            
                 <div class="footerDetail1">
-                    <div>Home</div>
-                    <div>Services</div>
-                    <div>Our Works</div>
-                    <div>Clients</div>
-                    <div>Contact</div>
+                    <a href="#home">Home</a>
+                    <a href="#services">Services</a>
+                    <a href="#ourWork">Our Works</a>
+                    <a href="#clients">Clients</a>
+                    <a href="#contact">Contact</a>
                 </div>
                 <div class="footerDetails2">
                     <div class="footerDetails2Title">Edie</div>
@@ -144,5 +156,7 @@
                 created by <a href="">hasanaimroatun</a> - devChallenges.io
             </div>
         </footer>
+
+        <script src="script.js"></script>
 </body>
 </html>

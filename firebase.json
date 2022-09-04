@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "edie-homepage-challenge-003",
     "public": "public",
     "ignore": [
       "firebase.json",

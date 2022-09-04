@@ -24,3 +24,15 @@ for(const btn of navBarBtn) {
         navBar.classList.toggle('navBar')
     })
 }
+
+
+const nav2InfoContainers = document.querySelectorAll('.nav2InfoContainer');
+
+for(const nav2Container of nav2InfoContainers) {
+    nav2Container.addEventListener('mouseenter', function() {
+        nav2Container.classList.toggle('nav2InfoContainer-hover')
+    })
+    nav2Container.addEventListener('mouseleave', function() {
+        nav2Container.classList.toggle('nav2InfoContainer-hover')
+    })
+}
